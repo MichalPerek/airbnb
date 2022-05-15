@@ -1,0 +1,27 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-image {
+  max-width: 70%;
+  margin: 0 auto;
+  align-self: center;
+}
+
+h1 {
+  text-align: left;
+  font-size: 1.5em;
+  align-self: self-start;
+  margin-bottom: 5px;
+}
+
+.hero-description {
+  width: 50%;
+  font-size: 0.75em;
+  align-self: self-start;
+  margin-top: 5px;
+}
